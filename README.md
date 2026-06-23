@@ -30,7 +30,8 @@ Computes the prefix function π, which stores the longest proper border ending a
 
 ## Benchmark
 
-The benchmark runs both algorithms on **all CSES test cases**.
+The benchmark runs both algorithms on **all CSES test cases**. It reads each `.in` file from `tests/inout/`, measures execution time for both algorithms, and prints a comparison table.
+
 
 ```bash
 cargo run --release --bin bench
